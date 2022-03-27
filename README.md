@@ -1,2 +1,4 @@
-# my_100_goals
-my 100 goals for studying
+
+## My 100 Goals for Studying
+
+1. flutter testing : Random cats
