@@ -4,9 +4,13 @@ enum RandomCatStatus { initial, loading, success, failure, emptyBreeds }
 
 extension RandomCatStatusX on RandomCatStatus {
   bool get isInitial => this == RandomCatStatus.initial;
+
   bool get isLoading => this == RandomCatStatus.loading;
+
   bool get isSuccess => this == RandomCatStatus.success;
+
   bool get isFailure => this == RandomCatStatus.failure;
+
   bool get isEmptyBreeds => this == RandomCatStatus.emptyBreeds;
 }
 

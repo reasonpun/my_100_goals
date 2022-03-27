@@ -9,6 +9,7 @@ class SuccessRandomCatView extends StatelessWidget {
   });
 
   final Cat cat;
+
   @override
   Widget build(BuildContext context) {
     return Column(

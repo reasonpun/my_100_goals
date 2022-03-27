@@ -2,8 +2,6 @@ import 'package:flutter_testing_cats_app/repository/model/models.dart';
 import 'package:equatable/equatable.dart';
 import 'package:json_annotation/json_annotation.dart';
 
-import 'breed.dart';
-
 part 'cat.g.dart';
 
 @JsonSerializable()
