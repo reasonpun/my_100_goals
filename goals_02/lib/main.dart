@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: "Movies",
       home: ChangeNotifierProvider(
         create: (context) => MovieListViewModel(),
-        child: MovieListPage(),
+        child: const MovieListPage(),
       ),
     );
   }
