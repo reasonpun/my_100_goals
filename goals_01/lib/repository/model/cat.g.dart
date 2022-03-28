@@ -6,17 +6,15 @@ part of 'cat.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-Cat _$CatFromJson(Map<String, dynamic> json) {
-  return Cat(
-    breeds: (json['breeds'] as List<dynamic>?)
-        ?.map((e) => Breed.fromJson(e as Map<String, dynamic>))
-        .toList(),
-    id: json['id'] as String?,
-    url: json['url'] as String?,
-    width: json['width'] as int?,
-    height: json['height'] as int?,
-  );
-}
+Cat _$CatFromJson(Map<String, dynamic> json) => Cat(
+      breeds: (json['breeds'] as List<dynamic>?)
+          ?.map((e) => Breed.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      id: json['id'] as String?,
+      url: json['url'] as String?,
+      width: json['width'] as int?,
+      height: json['height'] as int?,
+    );
 
 Map<String, dynamic> _$CatToJson(Cat instance) => <String, dynamic>{
       'breeds': instance.breeds,
