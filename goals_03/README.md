@@ -1,4 +1,4 @@
-# flutter_mvvm_architechture
+# flutter_mvvm_architecture
 
 Flutter MVVM Architecture
 
